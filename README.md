@@ -1,4 +1,4 @@
-# 3-Axis-Fan
+# Rotating Fan
 Handheld fan with a horizontal rotation axis using buttons and servos.
 
 
@@ -10,3 +10,9 @@ Immediately, I called up my friend and asked if he wanted to help me out with th
 After joining Torque, I jumped right into making the project and immediately got through a bit of my circuit on Kicad. However, I ran into a problem: I have no idea how to solder, or even how to make a half-decent PCB, especially for what materials I have and for what I know how to do. I spent about a week overthinking how to wire the servos too, which didn't help the workflow at all. That lead to another problem: I don't have enough time to work on much more. Junior year of High School demands a lot, and sometimes I just don't want to work on much after the wave of work most days.
   For the project itself, my friend and I debated on how to make the fan itself. I wanted to shoot for a fan that rotated on both the X and Y axis, but we clearly don't have the skill for that, so we agreed down to just rotating on the X axis.
 Since we made this decision so late into the month, Torque was already nearing the end of its design phase. Then I looked around at programs aimlesslu, and Phantom caught my eye. A program that lasts for a long time, with better prizes than Torque? Of course I signed up! That meant I had to transfer everything, which didn't take long at all. Now here I am, about to finish my fan's design, ready to finish my first project.
+
+
+
+11/25/26
+I finally actually got my fan circuit done. Now, all that's left is for my friend to get me the 3d model and the timelapses he got. The circuitry was really weird, specifically the DC motor. I tried to put an LED to show when its ready, but that didn't work out quite how I wanted it to. The Tinkercad slideswitch is really weird, I wish it made sense to me, but I'll get that over time. Funnily enough, I got the motor moving at negative RPM, which was a funny sight to see even though I know it was just moving the other way. I also coded up the servo (And deleted the one from before because I never did that) by using Arduino docs and some references, and eventually got it working pretty well. The image below is what the final circuit and code looks like.
+<img width="1266" height="829" alt="image" src="https://github.com/user-attachments/assets/4a9e5c4c-ae5e-49d9-bfd7-0f1e29e8fd0c" />
