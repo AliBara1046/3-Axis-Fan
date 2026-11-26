@@ -1,4 +1,4 @@
-# Rotating Fan
+ww2# Rotating Fan
 Handheld fan with a horizontal rotation axis using buttons and servos.
 
 
@@ -16,3 +16,9 @@ Since we made this decision so late into the month, Torque was already nearing t
 11/25/26
 I finally actually got my fan circuit done. Now, all that's left is for my friend to get me the 3d model and the timelapses he got. The circuitry was really weird, specifically the DC motor. I tried to put an LED to show when its ready, but that didn't work out quite how I wanted it to. The Tinkercad slideswitch is really weird, I wish it made sense to me, but I'll get that over time. Funnily enough, I got the motor moving at negative RPM, which was a funny sight to see even though I know it was just moving the other way. I also coded up the servo (And deleted the one from before because I never did that) by using Arduino docs and some references, and eventually got it working pretty well. The image below is what the final circuit and code looks like.
 <img width="1266" height="829" alt="image" src="https://github.com/user-attachments/assets/4a9e5c4c-ae5e-49d9-bfd7-0f1e29e8fd0c" />
+
+11/25/26
+Hello! im the aforementioned friend, and im finally here to submit my current progress on lapse, because we need to get our stuff together somehow! We both spent a bit trying to figure out how to do this, and i figured maybe just adding my lapse links to this github could work? Overall on the 3d modelling aspect however, i spent roughly 1.7 hours working on some basic designs before commiting to any specific build, i tested a few joint prototypes, and am currently somewhat done with the handle. it turns alright, and has room for a breadboard, but im still gonna have to figure out how to keep the servo in place. Thats for future me though, so stay tuned!
+https://lapse.hackclub.com/timelapse/pHLeUWejecdI
+https://lapse.hackclub.com/timelapse/mo45tm6K3XoV
+https://lapse.hackclub.com/timelapse/OgQ__LmIfN6T
